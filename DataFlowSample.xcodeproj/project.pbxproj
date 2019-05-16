@@ -12,6 +12,7 @@
 		8E7D0683228D0E0D00CA6546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D0681228D0E0D00CA6546 /* Main.storyboard */; };
 		8E7D0685228D0E0E00CA6546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D0684228D0E0E00CA6546 /* Assets.xcassets */; };
 		8E7D0688228D0E0E00CA6546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7D0686228D0E0E00CA6546 /* LaunchScreen.storyboard */; };
+		8E7D0690228D1D3800CA6546 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7D068F228D1D3800CA6546 /* ConfirmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8E7D0684228D0E0E00CA6546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E7D0687228D0E0E00CA6546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E7D0689228D0E0E00CA6546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7D068F228D1D3800CA6546 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8E7D0684228D0E0E00CA6546 /* Assets.xcassets */,
 				8E7D0686228D0E0E00CA6546 /* LaunchScreen.storyboard */,
 				8E7D0689228D0E0E00CA6546 /* Info.plist */,
+				8E7D068F228D1D3800CA6546 /* ConfirmViewController.swift */,
 			);
 			path = DataFlowSample;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7D0690228D1D3800CA6546 /* ConfirmViewController.swift in Sources */,
 				8E7D0680228D0E0D00CA6546 /* ViewController.swift in Sources */,
 				8E7D067E228D0E0D00CA6546 /* AppDelegate.swift in Sources */,
 			);
